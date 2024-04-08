@@ -45,7 +45,7 @@ def buscar(matriz,signo):
     for c in range(0,len(matriz[0])):
       if matriz[f][c] == signo:
         terminar = 1
-        print(f"su signo esta en la pocicion " + str(f) + " "+" "+ str(c))
+        print(f"se agrego el numero en la pocicion " + str(f) + " "+" "+ str(c))
         break
   print(f"intentaste buscar el signo " + str(intentos) + " veses")
   return intentos
